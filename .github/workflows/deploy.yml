@@ -45,4 +45,4 @@ jobs:
           script: |
             docker pull saraymartinez002/store-app:latest
             cd containers
-            docker-compose up -d
+            docker compose up -d
